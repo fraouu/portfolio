@@ -1,4 +1,4 @@
-﻿const slotPhotoUrldog = "https://i.ibb.co/HL9PgXxC/image-no-bg-preview-carve-photos.png";
+const slotPhotoUrldog = "https://i.ibb.co/HL9PgXxC/image-no-bg-preview-carve-photos.png";
 const symbols = [
     { type: "image", src: slotPhotoUrldog, alt: "Фото" },
     { type: "emoji", value: "🦴" },
@@ -132,7 +132,7 @@ function startEndlessPugRain() {
 function showJackpotMessage() {
     const message = document.createElement("div");
     message.className = "jackpot-message";
-    message.innerHTML = "<strong>Р”Р¶РµРєРїРѕС‚!</strong> РўСЂРё РјРѕРїСЃР° РІС‹РїР°Р»Рё РѕРґРЅРѕРІСЂРµРјРµРЅРЅРѕ";
+    message.innerHTML = "<strong>ДЖЕКПОТ!</strong> Пасхалка активирована";
     document.body.appendChild(message);
     setTimeout(() => message.remove(), 1900);
 }
